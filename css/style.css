@@ -1,0 +1,92 @@
+.container .top {
+    margin: 0px 302px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container .top .logo h1 {
+    margin-top: 95px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+#logo {
+    margin-right: 10px;
+}
+
+.container .top nav ul {
+    display: flex;
+    margin-top: 95px;
+    font-family: "DM Sans", sans-serif;
+    gap: 75px;
+}
+
+.container .top nav ul a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+}
+
+.center {
+    display: flex;
+}
+
+section article {
+    margin: 0px 302px;
+    margin-top: 115px;
+}
+
+section article .center {
+    margin-right: 55%;
+}
+
+article .center .head3 p {
+    line-height: 1.5;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    margin-top: 30px;
+}
+
+.center .flex-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+section article .flex-container div h3 {
+    line-height: 1.2;
+    font-family: "DM Sans", sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+section article .flex-container div p {
+    line-height: 1.5;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+section article .flex-container div img {
+    margin-left: 200px;
+    width: 600;
+    height: 400px;
+}
+
+.text-button #text,
+#button {
+    margin-top: 15px;
+    border-radius: 75px;
+    padding: 15px;
+    border: 1px solid black;
+}
+
+#text {
+    width: 350px;
+}
+
+#button {
+    background-color: #ffe01b;
+}
